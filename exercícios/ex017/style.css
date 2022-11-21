@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#cuzinho{
+    text-align: center;
+    color: white;
+    background-color:rgb(21, 184, 15);
+    box-shadow:2px 5px 5px rgba(0, 0, 0, 0.437)
+}
+
+h1{
+    color:rgb(17, 114, 14);
+}
+
+h2{
+    color:rgb(11, 63, 10);
+}
+h2.basico{
+    color:rgb(21, 184, 15);
+}
+h2.intermediario{
+    color:rgb(181, 184, 15);
+}
+h2.avancado{
+    color:rgb(184, 18, 15);
+}
