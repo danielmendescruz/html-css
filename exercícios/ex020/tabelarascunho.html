@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas</title>
+    <title>Tabela de teste</title>
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
@@ -13,6 +13,13 @@
         table{
             border-collapse: collapse;
             width: 500px;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
         }
 
         td,th{
@@ -34,10 +41,11 @@
     <h1>Exemplo Basico de uso da estrutura HTML para tabelas complexas</h1>
 
     <table>
+        <caption>População  das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
 
@@ -50,8 +58,8 @@
 
         <tfoot>
             <tr>
-                <th>População Total</th>
-                <td class="num">41 262 199</td>
+                <th scope="row">População Total</th>
+                <td class="num" >41 262 199</td>
             </tr>
         </tfoot>
     </table>
